@@ -1,0 +1,6 @@
+SERVICE com.google.android.gms/.nearby.exposurenotification.service.ExposureNotificationInternalService 9713ab0 pid=3829
+  Client:
+    dumpTier=DEFAULT enabled=true (since 2020-10-01T17:04:24-04)
+    Client apps:
+      active=true	package=com.google.android.apps.exposurenotification	signature=FC8D5316DDADA0B7C2B8F94279CAFB936052F264DF4D0F583947CD29EBDC4A95
+    No temporary exposure keys

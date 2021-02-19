@@ -1,0 +1,3 @@
+testId,hearer,sender,EW_dateMillisSinceEpoch,SI_secondsSinceLastScan,SI_attenuationsList
+20201007_asdf_Test004b,556868,556870,1602085955000,240,65
+20201007_asdf_Test004b,556870,556868,1602085914000,240,63,63,64

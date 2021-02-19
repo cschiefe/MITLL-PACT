@@ -1,0 +1,323 @@
+SERVICE com.google.android.gms/.nearby.exposurenotification.service.ExposureNotificationInternalService 4f604bf pid=2787
+  Client:
+    dumpTier=DEBUG_MODE enabled=true (since 2020-09-03T16:52:55-04)
+    Flags:
+      enabled = true
+      scan_time_seconds = 4
+      enable_opportunistic_scan = false
+      scan_interval_seconds = 300
+      scan_interval_random_range_seconds = 90
+      require_multi_advertisement = false
+      rssi_offset = 3
+      tx_calibration_power = -18
+      calibration_confidence = 3
+      tk_matching_clock_drift_rolling_periods = 12
+      ignore_embargo_period_when_matching_near_key_edges = false
+      ignore_embargo_period_when_get_keys = true
+      enable_client_apps_whitelist = false
+      google_settings_show_check_exposure_button = true
+      max_provide_diagnosis_keys_24h_calls = 1000000
+      max_provide_diagnosis_keys_24h_calls_with_token_a = 1000000
+      max_provide_diagnosis_keys_24h_calls_total = 1000000
+      matching_with_native = true
+      use_native_key_parser = true
+      disable_on_work_profile = true
+      enable_debug_settings = true
+      show_weekly_summary_notifications = true
+      show_updated_weekly_summary_notifications = true
+      toggle_bt_when_start_scan_fail = false
+      enable_early_temporary_exposure_key_release = false
+      test_get_all_keys = true
+      enable_get_version_api = true
+      enable_get_calibration_confidence_api = true
+      partner_public_keys = com.google.android.apps.exposurenotification:ExampleServer-v1,MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEUczyMAkfSeoU77Nmcb1G7t7xyGCAhQqMOIVDFLFas3J+elP7CiotovigCLWj706F07j1EPL27ThRzZl7Ha9uOA==|310-v1,MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE49JY6kekDgxj3Crm4y6kEHdfoKQFSNDM4mV9cgDb+e5nOAw0GeRoRThCu9/wX5wDT2QloFoOjl2pGZHI0f3C3w==
+    musc.exposurenotification:310-v1,MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE49JY6kekDgxj3Crm4y6kEHdfoKQFSNDM4mV9cgDb+e5nOAw0GeRoRThCu9/wX5wDT2QloFoOjl2pGZHI0f3C3w==
+    lv.spkc.gov.apturicovid.staging:247-v1,MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEi8YRoLM8s24saJyr18AtJlxpXkZxL2MTVHwcT8F1U3gR4bNXZ9RxvTifoB1l10B3Tn+jA4o4VKXptayzuj/oEQ==
+    ch.admin.bag.dp3t:228-v1,MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEsFcEnOPY4AOAKkpv9HSdW2BrhUCWwL15Hpqu5zHaWy1Wno2KR8G6dYJ8QO0uZu1M6j8z6NGXFVZcpw7tYeXAqQ==
+    gov.vdh.exposurenotification:310-v1,MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAESezqPcee6PiXtljd8iAa5E+LOvrF6fS0yJrwYRfhumir9fCfhW6HQ6E2aYoAA5Ouway1y7ZrMtaTiMcMAAnHsg==
+    com.netcompany.smittestop_exposure_notification:238-v1,MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEpv1hyaLlqoAvBg1CPCcCG5BQWzuEPT72OG4Vw/OSnoqk9SCBlB+iMdcbzDY1qyR10UrXCk2e7TbftnDnPc4ISg==
+    nl.rijksoverheid.en:204-v10,MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEnerZ7lcTJYBp7iXRYuWkZ/p3Tl/glTm4yImupXfe6TmTUlLckYJ0jFV1vKgVn/Abf13af/yOfb+uixBhVVpk4Q==|204-v11,MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEyA/btZ2/0Mz1h9bpNct5/5pbwXEySOOn0A1TPMQeM3ulDWYSOFmy5oSWPaxq6+XQ8/qvRBhmP98KKOVN13oYlw==|204-v13,MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE4PAs2+iP36T1rTL/o2UuNiaplvdPbMFMCcS5ujD2+9zK+/tE4QoKo9yc4BEzjscxLOoViy4AErlVhaDp2A/NLQ==
+    si.gov.ostanizdrav:293-v2,MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE9/HUs+ssvOdmv+BZPjubaUiYOWYTd5iRMopbdBzpEPXbyQBSmOFesVJ7y3GTU/1ql9FuIrqB7YBkhZZExPEqEw==
+    kz.nitec.bizbirgemiz:401-v2,MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEWVtI/A5oX94+zqmygZJ3FpiNfmSfXiwFFzm0rt6M7WKbha0DoVdoahOvzmSBs2gzI97Z70y8mS0CG2DlGP1t3A==
+    ch.admin.bag.dp3t:228-v1,MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEK2k9nZ8guo7JP2ELPQXnUkqDyjjJmYmpt9Zy0HPsiGXCdI3SFmLr204KNzkuITppNV5P7+bXRxiiY04NMrEITg==
+    lv.spkc.gov.apturicovid:247-v1,MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE2AS48Al9xY4RS9IjejsNNXNPFhuVzzBl4QqF++7kdZFccGyKJi8oEPAl/g6JpassO80qvJtKA2qqU4mhJrNanQ==
+    it.ministerodellasalute.immuni:222-v1,MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEw4rImGfl1eU13nq2OdnHor73/BAaMuTVNiR7zShVj8LCTApq+f2oNRdcwoCt3U3oCKtZj473FuZp4Yx889ttWA==|222-v2,MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEoYUk5kfvyUEOfumu1/jjIWORiROu5msDe8dpW6DBCtZ0CgNPz/LXUHaLe+hFx3NzxSREBh03Y99sjEhGTvqSmg==
+    fct.inesctec.stayaway:268-v1,MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEB/+Cy6AYqbfilDBszaoyxX6GJFY5DcS/mU4/5uCAJoTXl/dGqFwWTWk2GTHChAaCpyZAtZ7B24aLGdTdJD9a7A==
+    com.covidtracker.hse:272-v1,MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEspFhMIyvc+HNz8XmFIrUJEzG1rgpfTRFd0lBMmPesVwhwcW1L4ZnBYSC2q2T/hA195+J7CT0kD9UA18K2iflLA==
+    uy.gub.salud.plancovid19uy:748-v1,MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAElPaLDSYWNxHdzKhrAis23Xpx5Vbf6A9snp23g//98CKpMDQtsR13jG0hJ9PQQYfRP4BJ63K5CauShTVRdM48Cw==
+    de.rki.coronawarnapp:262-v1,MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEc7DEstcUIRcyk35OYDJ95/hTg3UVhsaDXKT0zK7NhHPXoyzipEnOp3GyNXDVpaPi3cAfQmxeuFMZAIX2+6A5Xg==
+    de.rki.coronawarnapp.dev:262-v1,MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE3BYTxr2HuJYQG+d7Ezu6KS8GEbFkiEvyJFg0j+C839gTjT6j7Ho0EXXZ/a07ZfvKcC2cmc1SunsrqU9Jov1J5Q==
+    pl.gov.mc.protegosafe:260-v1,MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEmiXpKLdunD3FI7bNf+8Nh10GHDY3PC8kQSjtZaKt6Qw4EiiRqh/jF/9dVTpqR2ii1yFBTdyrVu9Tbz7ZrcpyoA==
+    pl.gov.mc.protegosafe.stage:260-v1,MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIOpQ2mQBZwTM6xruM0JsiFUL8WaYuLgV1tt80VjN7/YQSr+2PSX5kCUOKEm8C7yuz0doIU8h8uoEslM1sJbm9Q==
+    sa.gov.nic.tabaud:420-v1,MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEeGQtGqwYsIvsL3gnAnZyNmrjXwfo73RjREldkjZ1rJpPy9WYjSsGdqDtL0tUm63a/NU+NsDU9X/SpglBEBl9YA==
+    au.gov.dta.covidtrace:505-v1,MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAECP9vD+TomRah/t1KOU8iGB/nqiFsSst0sdRQbDCCqFWYevoYZ7dCo2zPvA40fPFFUrv8nRkDHNuPBKJ3KhVuZg==
+    com.netcompany.smittestop_exposure_notification:238-v1,MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAELz0bTYdjYjEgN4eYwF6kUt597NUK2qsq7rcyrztbyrg9UtBOu9R9+8z1l+ls+YczzLCUMIlfyo2ixI9geBtigQ==
+    jp.go.mhlw.covid19radar:440-v1,MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEQwqCWDLkl+g+4bwTQgoRMbR7Z+Dz3wfNbAQhB2ja07q7UN7Bwa45HYJXkZlXqEQVb9c+SPuW4fDZnlMuQeIw+Q==
+    at.roteskreuz.stopcorona:232-v1,MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEsiZrtaVm768WVhtMZth6Zu0Ibd6rIO68wKIb3NVx/Ff3R3xd8UJ9HnleNrJ18A44NoL1OfjY7tuI2bp3lQgx+w==
+    gov.vdh.exposurenotification:310-v2,MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEfjmNaLd4t4jLe/TcaTV1TeEcRenZ3iZeIckE0skN1+pG2lSgC46nTVb++UdD0RF9Oa97H7UjcfGtcF8KNDnKvA==
+    egnc.moh.bruhealthtrace:528-v1,MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEAwKSmDu0hLyAbKJFxJXh+C4AnJz+xjxftSW450W3fhftY42kfrprv9N5WDsh5SFaoG4S7Uon1UjVvmToGqC+NA==
+    com.gha.covid.tracker:266-v1,MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEvMfKo07h6vT/LJPVzzaJCKBxT5qJRFTaN2v8iusXr/eqNH4OMHPQ3QFcwdTDGST1HVz66UtZVzARysaEIMKT9g==
+    mx.gob.www:334-v1,MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEY/uySJK8+bcJcKkWV2+Qob3eNwYMcAGQyai1P36RstzJ/pYa9R/+7qRQQafLEj/Csx41ftiLs6PeIFf/TedbTw==
+ec.gob.asi.android:740-v1,MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEjUcmvKCp3E49XJs5mIBy4Ho6syajt0tVEihf85f60mdD1dGzNMWbDqPtorshxfTWWUAXi4YjOfKrlSJ3Kq5MGw==
+    es.gob.radarcovid:214-v1,MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEvluo62LUUpYeqUF3xZYXXHm7r0FXRpCEmPjMIqPuDF7/bdnkQHnwqmShW2/9OArYDwOEQFftA8d5zOsDfhtOcQ==
+    hr.miz.evidencijakontakata:219-v1,MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEJnXsWiCvMyJFRSxMhxD47nJ1uLa/Ebs7mV2ndEJYI68CEoDh3nBUhhQDLggkhIXR1b8rb+OVEOPjcnqWymSVtw==
+    br.gov.datasus.guardioes:724-v1,MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEM/hnqMREE8pYpd3LVu03aWqWoTAzjucsYqMIZ7hhiM58HVGnbisUf6k/GLgSG4iKhdk8mV0Sb1/zuQs/TOZdcg==
+    mt.gov.dp3t:278-v1,MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE+c6qnOPd/sx1KB1kkFEE/U4+dYpIr3Q1FG19hjtAPKxoZr14XDk4LTSgu6naCUKqgFu7mHRL9yRt39kxXTivbw==
+    ca.gc.hcsc.canada.stopcovid:302-v1,MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE8oM6jlEslwzTG+sbdkBJwVnRj176nBHvMR66Fqjchohs7sBE+Mlxe6l3O3yHvREn9Nn9yEJcnEYvgFLuyUj/vQ==
+    gov.adph.exposurenotifications:310-v1,MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAESnSA3QTj6tWF8Yyjd+PVvAaco7MUSFQd2ifmaYHU4cb5KmRh6NSUezJnQFn9jqyWrqTJOgMPaXRCgEggHq9/aQ==
+    net.hscni.covidtracker:234-v1,MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEg2CdOGZLKDOArFMmk2KQXJ2GvDk49kIwtjEUcGvfLp+jxr/QzziPJcj6LZrWONz1D2i7eXfXyxcr8lxqV6XHWA==
+    gov.azdhs.covidwatch.android:310-v1,MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEE5fqxRFyMEWc+ncpcTSYRBiRX3t6RWJh5O0W+/hAUpOz4zeiPmQlgiLG5L58pYNf2CR5AkzitOIitzlZPVAz8g==|310-v2,MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEpn8EmFuxbs8sN+n3qD3AmALyoPgIeXqiOUMQG3uzWra1grxqqCEf08UdCjf+ndPVuzqyTmkjgbdofKQHKYZnzQ==
+    edu.uw.commoncircle.research:310-v1,MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEA9bxrju9nFAwOngP/aYzsSjO0ydrlyIAJh3YEE+kG53JSZTfIPMKVmSwHLtekEu3rsIM8p5PaA5CbV/EeHzcpQ==
+    ca.gc.hcsc.canada.covidalert.dev:302-v1,MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE8oM6jlEslwzTG+sbdkBJwVnRj176nBHvMR66Fqjchohs7sBE+Mlxe6l3O3yHvREn9Nn9yEJcnEYvgFLuyUj/vQ==
+    uk.nhs.covid19.internal:234-v1,MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEqCkmIgEk4ojU2yIvejV0uzIroJJCSNVxLyo9xDFKiHsnqs7kFu418ynYKTZfx8y42ahiUwKN4Er4KAnFW1LtxA==
+    fi.thl.koronahaavi:244-v2,MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEKX6P7romHnIkLMZEHmei1R/wOwZsFK/rVbmbYdNPvq+L/N6aM47l2sGTLbRHygKkngeFno+cr6mWdqf+01LvOg==
+    org.mitre.covidaware:310-2,MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEA1tyzYKaov2zMAPDGfxMUpdk5M0DKfmNxzuC1aL/Hxuf1bYhubLCYhhHNbkbYBOpFwRtRxi8WaNHjGWuLexvzA==
+    nl.rijksoverheid.en:204-v12,MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE9B/JOaQVO8Rl5ZgMZx672VQtreVkaojmOwsnNh8/vazL9h7CuaQc2Eo8gF6K/t0KEW/KwpxtMYyt1yOyElqs+A==
+    gov.nv.dhhs.en:310-1,MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEfns7MLRMBhxExPn3qeSx60ESvkrK2EGoZsRvbTMmDP1ybq5xRW8WAdkEBasF2qzOjmBhtBkdxsMIAw2qq+Xi9g==|310-v103,MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEmT/bJ0bmPioEcyAepRxG7+x2SM2wdp1C4bJ2uPlPhpfrDFQ6qp7cUzhPLxH9UgftNLfFEqk+aSFa25y8fOu+sQ==
+    lt.nvsc.coronawarnapp:246-v1,MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEVIWP85NPTIqnBkOZPTuC0ytvfdarlUGGnELkKcjwDH7bXYY/TFUlgz4UIaXj7wzEMlHcTFKIrrqTURI1BoRGuA==
+    uk.nhs.covid19.production:234-v1,MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE72e4l0xTkIl6S20F7hJkjkbgLb0LGVSioZ5eg8aIaODJqf1CVsDLg6hjleqFf1k7a8EStA/cQaFKv5uXznThgA==
+    org.pathcheck.pr.bt:330-v1,MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE5/F/cKa78HpQmZn0RDc+LL8tm2GkUGx9YQrivQzshiC6GdXQZMmP9rukJRenIyZvXQVeoQFHRbipS6/NK24e/A==
+    com.proudcrowd.exposure:310-v100,MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEmJ/KtrINGH1cRW0ILLlQQUcbBI/gRtHKUuCz/chVcE5Bym8N2USMgP4Y0vam/YvnNN1HNUK9da/MgW/1Nu0WdQ==|310-v101,MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEAxQ0tsa1P92K3kgtYdbSJM8OCgSTK7ZxgtFEZAT8XfXB8JC8PSUn26F1Zo7wvAdybBcisWm+09B9Ol9MnfJgTA==|310-v102,MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEl3nVPUBdXPo38o0lmgGUh180W3ipR/TAuFtmhhdIaDWjS6kEKANP+MAXvbrWD7khWF3DQHaq0c1HosLLoymR9Q==
+    za.gov.health.covidconnect:655-1,MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE8/hynktiUwTcskVp9FznlQXQiruf0EfGpwMyvRUTi7CVnfev8Bm5Yoc8PER2vf1ttkiupJir8ck7mY6OUXgKeA==
+    org.covidwatch.main.android:350-v1,MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEwGu20N+XDsK2ouWDiOnA2pvf82gmArXmaYGr3P4z12GLG1MLN9HnqzRNeENhtiJOfZxXpjs22eFIa7yth8GsLA==
+    be.sciensano.coronalert:206-v1,MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEqG73R7F3UpqPAzGYTEJxPKC3EnxxfSIX8EbUe/XAcTWLzj4cZ4XOBFrDav7FhSC3NBXkAt1oK5ZI1eRUL8Vv8w==
+    com.tracefast.app:515-v1,MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEleAmG09BuTxL/Tf++iYMEExMtHZZFCZmshYenmVa+ZTn1Qv8SxLuhzortIk98iajzUt+mQqlXVyd5X9eqiRaTg==
+    gov.nc.dhhs.exposurenotification:310-v1,MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEmNxzwB4ShOCTqW6ZkPiGurP8XSWWs+SnRN2OBpaqK9uPG45swQLF6o4HPAaC5C0ZNi9itP24jC1cTSz9d7qEaA==|310-v103,MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEmT/bJ0bmPioEcyAepRxG7+x2SM2wdp1C4bJ2uPlPhpfrDFQ6qp7cUzhPLxH9UgftNLfFEqk+aSFa25y8fOu+sQ==
+    si.gov.ostanizdrav:293-v1,MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE2NDY84ATX4/2DW6yROcT/s+JrbrR/7TQHfd1zqeyTCKvajWHOBaOtvUgYqES/woCec0loqiaE/9hwhL1VwaSjQ==
+    gov.pa.covidtracker:310-v1,MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEY0FmJQ3QFfCnFxWqQC4SdlKIbkRG0ebycDIAKgD1r+4STuRIbCJCdTIfGWxFhV2aUKX05/NOIk8tFoE+xaUcnQ==|310-v103,MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEmT/bJ0bmPioEcyAepRxG7+x2SM2wdp1C4bJ2uPlPhpfrDFQ6qp7cUzhPLxH9UgftNLfFEqk+aSFa25y8fOu+sQ==
+    gov.de.covidtracker:310-v1,MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEOf1SOXSOE9JcWhDaCNt31tysoF7lCedg/sjSeYjn4SkeRKbjWyngD+oXIMpOHdJH+WfnIHklGGtfrjZU5TqrnA==|310-v103,MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEmT/bJ0bmPioEcyAepRxG7+x2SM2wdp1C4bJ2uPlPhpfrDFQ6qp7cUzhPLxH9UgftNLfFEqk+aSFa25y8fOu+sQ==
+    org.pathcheck.guam.bt:311-v1,MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEgL6aKri7Fq2oZs4tz4yKEcqVkLOVuKNaLE1bY/vu8rrB6VqXpmThy+6Re8cBOxV3dpZFzHOVdlcNhx8zvjh/ZA==
+    org.pathcheck.gr.bt:202-v1,MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEQl1nNlmgNfnH9xBnIxDy0oQAOf+f7NG9GTgTZFoqTxOHoOzfdixPmxtALJnMjWL9fcqThQAprZBIGIZUyhZihQ==
+    ee.tehik.hoia:248-v1,MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEL+3Uawx8NtLF2gy/c9IPO6KVd2s7fwp8phA7zIvjB0Y1G9SHCtOhDId57395rrYxwU2gt/bGmoY4s8SKSQKKnw==
+    pa.gob.aig.exposure.covid:714-v1,MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEG0Nhro2lPsDw8cKdyZpwn0Ct3L96ykDH06ZiFJwFtKIP5+zbnWXnWr5RW99nGGoo+i/moe4ySXpkGtcpcCyxNg==
+    com.governmentofjersey.jerseycovidalert:234-v1,MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEkRCJpH7SrT0JqFHtBlXvtES5zbcA6axO5nfD1YXsZYl7E8/1+3o6hQx4Kfvnx8tSdkuFrtwpjDNJZA4l2IMQlw==
+    ke.go.health_togethertrace:639-v1,MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEk4e12Y/2aSTCGQi+NsuuOBo9NlQVS6Sd0KVL6yZuVfRoXu9BWAOubzGXE9ls4DBLqKaT1PVdDdLRmmlU+a+RNQ==|639-V2,MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE0O2xHJsU973ftmu53vX5R+Fh3WVB+d5ZndB0m9Vxbxo6gF7JSipashRXHNCVOfqUKa3KV/PEJ5eLQaCrZnRmuA==
+    org.pathcheck.covidsafepathsBt.mn:310-v1,MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEFOEemNupFXRzG94/mQ6ao4ndsrOCk1+9IDpmCLn+R03mf8oE3hAD7fh7fJ8dyXlCz1EBdppXdPqA8c35eiYDcg==|310-v103,MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEmT/bJ0bmPioEcyAepRxG7+x2SM2wdp1C4bJ2uPlPhpfrDFQ6qp7cUzhPLxH9UgftNLfFEqk+aSFa25y8fOu+sQ==
+    gov.ny.health.proximity:310-v1,MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEXkW3l6nZwbnwmyKSDcKnfrGsfdnAsBjWeuYOSRELSwVkqc4uR+RWmxQfH6SiDcuwVK1g7suOFBkSSC/iHuWxZw==|310-v103,MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEmT/bJ0bmPioEcyAepRxG7+x2SM2wdp1C4bJ2uPlPhpfrDFQ6qp7cUzhPLxH9UgftNLfFEqk+aSFa25y8fOu+sQ==
+    gov.michigan.MiCovidExposure:311-v1,MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEYV1pZop5giLWhX1JgOVncN4G5VWB3CRZgX2qPa1rvJ2TA3w50j5xY5QiwD2zT48JX6JYyb99jsqfrTpykvbBjQ==
+    kz.nitec.bizbirgemiz:401-v1,MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEF/xnEPiQc54IX1UyZHdKQ9kS0U54B1DNf+2quzJl6X5gb5ftZC78Fes4QKW/cRmpdS1RMGcvTcd/dn13YmscFQ==
+    gov.nc.dhhs.exposurenotifications:311-v12,MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEB+v1G93gjZ29A72E/lYeb3B5GkHcZKDi4lGIR0jhs0DvBOCK5t5vpPKajYSCweOmPFE5v09aKK2VgXlyCJLHLw==
+    gov.scot.covidtracker:234-v1,MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEKV/mqpPAF3rJeG7BcVwbZa5VwvQO1efCbQLuB+zVKWpnDnu9be0AZ9Qb3E0oxCSQIfeo3WPAqq1ltAdwwkE8YQ==
+    cv.nanosmon.app.dp3t:625-v1,MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEfNsPNqTTyrH7fan8zynaYor/F6e61EmhpHiGP43ZEjPNAc5ZmN4NAM2pHdWVEkywJS3HkOrxkjjaolSUX2SX1g==
+    cz.covid19cz.erouska.dev:230-1,MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEJkUe13nF4CvRHe0qogm9KDw9v/d1naWGqbEIWIfMU/rxqKqiU6HUg1OtchnB5qKiLWefe3ptS/+hbmpOlT/4Xw==
+    nz.govt.health.covidtracer_enf_trial:530-v1,MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEUDyu4w7MaeytiRuSWQSGMGrzjCdpso5Gr5ttwvL0QrFaurCridtBedlgEIZlDJdR9RyffVG4dtoYTS/FhQm5Lg==
+      enable_diagnosis_keys_data_mapping_apis = true
+      set_diagnosis_keys_data_mapping_throttle_duration_days = 7
+      set_diagnosis_keys_data_mapping_throttle_count = 1
+    Client apps:
+      active=true	package=com.google.android.apps.exposurenotification	signature=FC8D5316DDADA0B7C2B8F94279CAFB936052F264DF4D0F583947CD29EBDC4A95
+      Matching requests:
+        status=COMPLETED	receivedTime=1969-12-31T19:00:00-05	completeTime=2020-09-03T16:53:21-04	token=
+          matchedKeyCount=0
+        status=COMPLETED	receivedTime=1969-12-31T19:00:00-05	completeTime=2020-09-03T16:53:21-04	token=
+          matchedKeyCount=0
+        status=COMPLETED	receivedTime=1969-12-31T19:00:00-05	completeTime=2020-09-03T16:53:21-04	token=
+          matchedKeyCount=0
+        status=COMPLETED	receivedTime=1969-12-31T19:00:00-05	completeTime=2020-09-03T16:53:21-04	token=
+          matchedKeyCount=0
+        status=COMPLETED	receivedTime=1969-12-31T19:00:00-05	completeTime=2020-09-03T16:53:21-04	token=
+          matchedKeyCount=0
+        status=COMPLETED	receivedTime=1969-12-31T19:00:00-05	completeTime=2020-09-03T16:53:22-04	token=
+          matchedKeyCount=0
+        status=COMPLETED	receivedTime=1969-12-31T19:00:00-05	completeTime=2020-09-03T16:53:22-04	token=
+          matchedKeyCount=0
+        status=COMPLETED	receivedTime=1969-12-31T19:00:00-05	completeTime=2020-09-03T16:53:22-04	token=
+          matchedKeyCount=0
+        status=COMPLETED	receivedTime=1969-12-31T19:00:00-05	completeTime=2020-09-03T16:53:22-04	token=
+          matchedKeyCount=0
+        status=COMPLETED	receivedTime=1969-12-31T19:00:00-05	completeTime=2020-09-03T16:53:22-04	token=
+          matchedKeyCount=0
+        status=COMPLETED	receivedTime=1969-12-31T19:00:00-05	completeTime=2020-09-03T16:53:22-04	token=
+          matchedKeyCount=0
+        status=COMPLETED	receivedTime=1969-12-31T19:00:00-05	completeTime=2020-09-03T16:53:22-04	token=
+          matchedKeyCount=0
+        status=COMPLETED	receivedTime=1969-12-31T19:00:00-05	completeTime=2020-09-03T16:53:22-04	token=
+          matchedKeyCount=0
+        status=COMPLETED	receivedTime=1969-12-31T19:00:00-05	completeTime=2020-09-03T16:53:22-04	token=
+          matchedKeyCount=0
+        status=COMPLETED	receivedTime=1969-12-31T19:00:00-05	completeTime=2020-09-03T16:53:22-04	token=
+          matchedKeyCount=0
+        status=COMPLETED	receivedTime=1969-12-31T19:00:00-05	completeTime=2020-09-03T16:53:22-04	token=
+          matchedKeyCount=0
+        status=COMPLETED	receivedTime=1969-12-31T19:00:00-05	completeTime=2020-09-03T16:53:22-04	token=
+          matchedKeyCount=0
+        status=COMPLETED	receivedTime=1969-12-31T19:00:00-05	completeTime=2020-09-03T16:53:22-04	token=
+          matchedKeyCount=0
+        status=COMPLETED	receivedTime=1969-12-31T19:00:00-05	completeTime=2020-09-03T16:53:23-04	token=
+          matchedKeyCount=0
+        status=COMPLETED	receivedTime=1969-12-31T19:00:00-05	completeTime=2020-09-03T16:53:23-04	token=
+          matchedKeyCount=0
+        status=COMPLETED	receivedTime=1969-12-31T19:00:00-05	completeTime=2020-09-03T16:53:23-04	token=
+          matchedKeyCount=0
+        status=COMPLETED	receivedTime=1969-12-31T19:00:00-05	completeTime=2020-09-03T16:53:23-04	token=
+          matchedKeyCount=0
+        status=COMPLETED	receivedTime=1969-12-31T19:00:00-05	completeTime=2020-09-03T16:53:23-04	token=
+          matchedKeyCount=0
+        status=COMPLETED	receivedTime=1969-12-31T19:00:00-05	completeTime=2020-09-03T16:53:23-04	token=
+          matchedKeyCount=0
+        status=COMPLETED	receivedTime=1969-12-31T19:00:00-05	completeTime=2020-09-03T16:53:23-04	token=
+          matchedKeyCount=0
+        status=COMPLETED	receivedTime=1969-12-31T19:00:00-05	completeTime=2020-09-03T16:53:23-04	token=
+          matchedKeyCount=0
+        status=COMPLETED	receivedTime=1969-12-31T19:00:00-05	completeTime=2020-09-03T16:53:23-04	token=
+          matchedKeyCount=0
+        status=COMPLETED	receivedTime=1969-12-31T19:00:00-05	completeTime=2020-09-03T16:53:23-04	token=
+          matchedKeyCount=0
+        status=COMPLETED	receivedTime=1969-12-31T19:00:00-05	completeTime=2020-09-03T16:53:23-04	token=
+          matchedKeyCount=0
+        status=COMPLETED	receivedTime=1969-12-31T19:00:00-05	completeTime=2020-09-03T16:53:23-04	token=
+          matchedKeyCount=0
+        status=COMPLETED	receivedTime=1969-12-31T19:00:00-05	completeTime=2020-09-03T16:53:23-04	token=
+          matchedKeyCount=0
+        status=COMPLETED	receivedTime=1969-12-31T19:00:00-05	completeTime=2020-09-03T16:53:24-04	token=
+          matchedKeyCount=0
+        status=COMPLETED	receivedTime=1969-12-31T19:00:00-05	completeTime=2020-09-03T16:53:24-04	token=
+          matchedKeyCount=0
+        status=COMPLETED	receivedTime=1969-12-31T19:00:00-05	completeTime=2020-09-03T16:53:24-04	token=
+          matchedKeyCount=0
+        status=COMPLETED	receivedTime=1969-12-31T19:00:00-05	completeTime=2020-09-03T16:53:25-04	token=
+          matchedKeyCount=0
+        status=COMPLETED	receivedTime=1969-12-31T19:00:00-05	completeTime=2020-09-03T16:53:26-04	token=
+          matchedKeyCount=0
+        status=COMPLETED	receivedTime=1969-12-31T19:00:00-05	completeTime=2020-09-03T16:53:27-04	token=
+          matchedKeyCount=0
+        status=COMPLETED	receivedTime=1969-12-31T19:00:00-05	completeTime=2020-09-03T16:53:28-04	token=
+          matchedKeyCount=0
+        status=COMPLETED	receivedTime=1969-12-31T19:00:00-05	completeTime=2020-09-03T16:53:29-04	token=
+          matchedKeyCount=0
+        status=COMPLETED	receivedTime=1969-12-31T19:00:00-05	completeTime=2020-09-03T16:53:29-04	token=
+          matchedKeyCount=0
+        status=COMPLETED	receivedTime=1969-12-31T19:00:00-05	completeTime=2020-09-03T16:53:30-04	token=
+          matchedKeyCount=0
+        status=COMPLETED	receivedTime=1969-12-31T19:00:00-05	completeTime=2020-09-03T16:53:31-04	token=
+          matchedKeyCount=0
+        status=COMPLETED	receivedTime=1969-12-31T19:00:00-05	completeTime=2020-09-03T16:53:32-04	token=
+          matchedKeyCount=0
+        status=COMPLETED	receivedTime=1969-12-31T19:00:00-05	completeTime=2020-09-03T16:53:33-04	token=
+          matchedKeyCount=0
+        status=COMPLETED	receivedTime=1969-12-31T19:00:00-05	completeTime=2020-09-03T16:53:34-04	token=
+          matchedKeyCount=0
+        status=COMPLETED	receivedTime=1969-12-31T19:00:00-05	completeTime=2020-09-03T16:53:35-04	token=
+          matchedKeyCount=0
+        status=COMPLETED	receivedTime=1969-12-31T19:00:00-05	completeTime=2020-09-03T16:56:48-04	token=
+          matchedKeyCount=0
+        status=COMPLETED	receivedTime=1969-12-31T19:00:00-05	completeTime=2020-09-03T16:56:48-04	token=
+          matchedKeyCount=0
+        status=COMPLETED	receivedTime=1969-12-31T19:00:00-05	completeTime=2020-09-03T16:56:48-04	token=
+          matchedKeyCount=0
+        status=COMPLETED	receivedTime=1969-12-31T19:00:00-05	completeTime=2020-09-03T16:56:48-04	token=
+          matchedKeyCount=0
+        status=COMPLETED	receivedTime=1969-12-31T19:00:00-05	completeTime=2020-09-03T16:56:48-04	token=
+          matchedKeyCount=0
+        status=COMPLETED	receivedTime=1969-12-31T19:00:00-05	completeTime=2020-09-03T16:56:48-04	token=
+          matchedKeyCount=0
+        status=COMPLETED	receivedTime=1969-12-31T19:00:00-05	completeTime=2020-09-03T16:56:48-04	token=
+          matchedKeyCount=0
+        status=COMPLETED	receivedTime=1969-12-31T19:00:00-05	completeTime=2020-09-03T16:56:48-04	token=
+          matchedKeyCount=0
+        status=COMPLETED	receivedTime=1969-12-31T19:00:00-05	completeTime=2020-09-03T16:56:48-04	token=
+          matchedKeyCount=0
+        status=COMPLETED	receivedTime=1969-12-31T19:00:00-05	completeTime=2020-09-03T16:56:48-04	token=
+          matchedKeyCount=0
+        status=COMPLETED	receivedTime=1969-12-31T19:00:00-05	completeTime=2020-09-03T16:56:48-04	token=
+          matchedKeyCount=0
+        status=COMPLETED	receivedTime=1969-12-31T19:00:00-05	completeTime=2020-09-03T16:56:48-04	token=
+          matchedKeyCount=0
+        status=COMPLETED	receivedTime=1969-12-31T19:00:00-05	completeTime=2020-09-03T16:56:48-04	token=
+          matchedKeyCount=0
+        status=COMPLETED	receivedTime=1969-12-31T19:00:00-05	completeTime=2020-09-03T16:56:48-04	token=
+          matchedKeyCount=0
+        status=COMPLETED	receivedTime=1969-12-31T19:00:00-05	completeTime=2020-09-03T16:56:49-04	token=
+          matchedKeyCount=0
+        status=COMPLETED	receivedTime=1969-12-31T19:00:00-05	completeTime=2020-09-03T16:56:49-04	token=
+          matchedKeyCount=0
+        status=COMPLETED	receivedTime=1969-12-31T19:00:00-05	completeTime=2020-09-03T16:56:49-04	token=
+          matchedKeyCount=0
+        status=COMPLETED	receivedTime=1969-12-31T19:00:00-05	completeTime=2020-09-03T16:56:49-04	token=
+          matchedKeyCount=0
+        status=COMPLETED	receivedTime=1969-12-31T19:00:00-05	completeTime=2020-09-03T16:56:49-04	token=
+          matchedKeyCount=0
+        status=COMPLETED	receivedTime=1969-12-31T19:00:00-05	completeTime=2020-09-03T16:56:49-04	token=
+          matchedKeyCount=0
+        status=COMPLETED	receivedTime=1969-12-31T19:00:00-05	completeTime=2020-09-03T16:56:49-04	token=
+          matchedKeyCount=0
+        status=COMPLETED	receivedTime=1969-12-31T19:00:00-05	completeTime=2020-09-03T16:56:49-04	token=
+          matchedKeyCount=0
+        status=COMPLETED	receivedTime=1969-12-31T19:00:00-05	completeTime=2020-09-03T16:56:49-04	token=
+          matchedKeyCount=0
+        status=COMPLETED	receivedTime=1969-12-31T19:00:00-05	completeTime=2020-09-03T16:56:49-04	token=
+          matchedKeyCount=0
+        status=COMPLETED	receivedTime=1969-12-31T19:00:00-05	completeTime=2020-09-03T16:56:49-04	token=
+          matchedKeyCount=0
+        status=COMPLETED	receivedTime=1969-12-31T19:00:00-05	completeTime=2020-09-03T16:56:49-04	token=
+          matchedKeyCount=0
+        status=COMPLETED	receivedTime=1969-12-31T19:00:00-05	completeTime=2020-09-03T16:56:49-04	token=
+          matchedKeyCount=0
+        status=COMPLETED	receivedTime=1969-12-31T19:00:00-05	completeTime=2020-09-03T16:56:49-04	token=
+          matchedKeyCount=0
+        status=COMPLETED	receivedTime=1969-12-31T19:00:00-05	completeTime=2020-09-03T16:56:49-04	token=
+          matchedKeyCount=0
+        status=COMPLETED	receivedTime=1969-12-31T19:00:00-05	completeTime=2020-09-03T16:56:49-04	token=
+          matchedKeyCount=0
+        status=COMPLETED	receivedTime=1969-12-31T19:00:00-05	completeTime=2020-09-03T16:56:49-04	token=
+          matchedKeyCount=0
+        status=COMPLETED	receivedTime=1969-12-31T19:00:00-05	completeTime=2020-09-03T16:56:50-04	token=
+          matchedKeyCount=0
+        status=COMPLETED	receivedTime=1969-12-31T19:00:00-05	completeTime=2020-09-03T16:56:50-04	token=
+          matchedKeyCount=0
+        status=COMPLETED	receivedTime=1969-12-31T19:00:00-05	completeTime=2020-09-03T16:56:50-04	token=
+          matchedKeyCount=0
+        status=COMPLETED	receivedTime=1969-12-31T19:00:00-05	completeTime=2020-09-03T16:56:50-04	token=
+          matchedKeyCount=0
+        status=COMPLETED	receivedTime=1969-12-31T19:00:00-05	completeTime=2020-09-03T16:56:50-04	token=
+          matchedKeyCount=0
+        status=COMPLETED	receivedTime=1969-12-31T19:00:00-05	completeTime=2020-09-03T16:56:50-04	token=
+          matchedKeyCount=0
+        status=COMPLETED	receivedTime=1969-12-31T19:00:00-05	completeTime=2020-09-03T16:56:50-04	token=
+          matchedKeyCount=0
+        status=COMPLETED	receivedTime=1969-12-31T19:00:00-05	completeTime=2020-09-03T16:56:50-04	token=
+          matchedKeyCount=0
+        status=COMPLETED	receivedTime=1969-12-31T19:00:00-05	completeTime=2020-09-03T16:56:50-04	token=
+          matchedKeyCount=0
+        status=COMPLETED	receivedTime=1969-12-31T19:00:00-05	completeTime=2020-09-03T16:56:50-04	token=
+          matchedKeyCount=0
+        status=COMPLETED	receivedTime=1969-12-31T19:00:00-05	completeTime=2020-09-03T16:56:50-04	token=
+          matchedKeyCount=0
+        status=COMPLETED	receivedTime=1969-12-31T19:00:00-05	completeTime=2020-09-03T16:56:50-04	token=
+          matchedKeyCount=0
+        status=COMPLETED	receivedTime=1969-12-31T19:00:00-05	completeTime=2020-09-03T16:56:50-04	token=
+          matchedKeyCount=0
+        status=COMPLETED	receivedTime=1969-12-31T19:00:00-05	completeTime=2020-09-03T16:56:50-04	token=
+          matchedKeyCount=0
+        status=COMPLETED	receivedTime=1969-12-31T19:00:00-05	completeTime=2020-09-03T16:56:50-04	token=
+          matchedKeyCount=0
+    Temporary exposure keys:
+      #0	startIntervalNum=2665152 (2020-09-02T20:00:00-04)	 period=144	keyData=3BB812A19ACE51CF6EA0F74BED0CDF2E
+    Advertisement records:
+      2020-09-03T12:41:28-04	RPI=6CE4E4D3F110EB0248E03CD48593856E	TEK=#0	intervalNum=0 (1969-12-31T19:00:00-05)	metadata=5CEE0000 (ver=92, txPower=-18)	encryptedMeta=C46D3BDB
+      2020-09-03T12:54:05-04	RPI=EA0E737EF70106DE0A6ABB6649AAB191	TEK=#0	intervalNum=0 (1969-12-31T19:00:00-05)	metadata=5CEE0000 (ver=92, txPower=-18)	encryptedMeta=3566868B
+      2020-09-03T13:09:19-04	RPI=98DC97E0571E49335AEAFCD3EDED31FB	TEK=#0	intervalNum=0 (1969-12-31T19:00:00-05)	metadata=5CEE0000 (ver=92, txPower=-18)	encryptedMeta=1A7CEE22
+      2020-09-03T13:19:51-04	RPI=874F6F40AC021E59F3E3FBB6CA9AADC6	TEK=#0	intervalNum=0 (1969-12-31T19:00:00-05)	metadata=5CEE0000 (ver=92, txPower=-18)	encryptedMeta=E6700EE0
+      2020-09-03T13:30:25-04	RPI=C099B57E4E7A171F25AEA77A2291ABF9	TEK=#0	intervalNum=0 (1969-12-31T19:00:00-05)	metadata=5CEE0000 (ver=92, txPower=-18)	encryptedMeta=D6A68D38
+      2020-09-03T13:32:12-04	RPI=A725C655D4B1054A889DABFE8BE7DA44	TEK=#0	intervalNum=0 (1969-12-31T19:00:00-05)	metadata=5CEE0000 (ver=92, txPower=-18)	encryptedMeta=DD3709A8
+      2020-09-03T13:33:25-04	RPI=9108322D2BB5877A7AE7CDB8DCAF3E63	TEK=#0	intervalNum=0 (1969-12-31T19:00:00-05)	metadata=5CEE0000 (ver=92, txPower=-18)	encryptedMeta=9BE3827F
+      2020-09-03T13:37:19-04	RPI=9108322D2BB5877A7AE7CDB8DCAF3E63	TEK=#0	intervalNum=0 (1969-12-31T19:00:00-05)	metadata=5CEE0000 (ver=92, txPower=-18)	encryptedMeta=9BE3827F
+      2020-09-03T13:49:11-04	RPI=09D5E3FACDCC71F6B35FD80F6C861168	TEK=#0	intervalNum=0 (1969-12-31T19:00:00-05)	metadata=5CEE0000 (ver=92, txPower=-18)	encryptedMeta=CCD2D4CF
+  2020-09-03T14:05:37-04	RPI=37E18C03415DF4ED9BF7645FE7C1C2F2	TEK=#0	intervalNum=0 (1969-12-31T19:00:00-05)	metadata=5CEE0000 (ver=92, txPower=-18)	encryptedMeta=EC28BD4F
+      2020-09-03T14:16:41-04	RPI=34380E25BE50B2ADAE03D61F1FD78CA2	TEK=#0	intervalNum=0 (1969-12-31T19:00:00-05)	metadata=5CEE0000 (ver=92, txPower=-18)	encryptedMeta=C098441A
+      2020-09-03T14:30:43-04	RPI=09A33D92E117A17CF7A4CB0B9C07FB6A	TEK=#0	intervalNum=0 (1969-12-31T19:00:00-05)	metadata=5CEE0000 (ver=92, txPower=-18)	encryptedMeta=82190AE5
+      2020-09-03T14:41:27-04	RPI=1C573ABA33125FAE420D82ED9A97B51E	TEK=#0	intervalNum=0 (1969-12-31T19:00:00-05)	metadata=5CEE0000 (ver=92, txPower=-18)	encryptedMeta=F1EA8A91
+      2020-09-03T14:52:58-04	RPI=A9BB28841F1DABE4FB53EAC32234669C	TEK=#0	intervalNum=0 (1969-12-31T19:00:00-05)	metadata=5CEE0000 (ver=92, txPower=-18)	encryptedMeta=16AEB3A4
+      2020-09-03T15:11:13-04	RPI=242038E7BA6786B32003957A23BCE0C3	TEK=#0	intervalNum=0 (1969-12-31T19:00:00-05)	metadata=5CEE0000 (ver=92, txPower=-18)	encryptedMeta=FE9F2D30
+      2020-09-03T15:20:49-04	RPI=6420CF47E9C4F49BF5353D3C5DE2A494	TEK=#0	intervalNum=0 (1969-12-31T19:00:00-05)	metadata=5CEE0000 (ver=92, txPower=-18)	encryptedMeta=F1526534
+      2020-09-03T15:34:33-04	RPI=47236F7C582511B2C929C768EC3051F5	TEK=#0	intervalNum=0 (1969-12-31T19:00:00-05)	metadata=5CEE0000 (ver=92, txPower=-18)	encryptedMeta=9F7DB1D2
+      2020-09-03T15:47:44-04	RPI=02E64A79D1E35736D3CBA663532DE1C7	TEK=#0	intervalNum=0 (1969-12-31T19:00:00-05)	metadata=5CEE0000 (ver=92, txPower=-18)	encryptedMeta=D03DA39D
+      2020-09-03T16:26:05-04	RPI=11FC6B53C20D7CB3BAADD4858BBD06F2	TEK=#0	intervalNum=2665274 (2020-09-03T16:20:00-04)	metadata=5CEE0000 (ver=92, txPower=-18)	encryptedMeta=0DC1C2E4
+      2020-09-03T16:39:07-04	RPI=675C9DDB4244876A33052742F1293964	TEK=#0	intervalNum=2665275 (2020-09-03T16:30:00-04)	metadata=5CEE0000 (ver=92, txPower=-18)	encryptedMeta=641ED8F6
+      2020-09-03T16:52:56-04	RPI=3921797889A1E9E3C22995CCAD81A5FE	TEK=#0	intervalNum=2665277 (2020-09-03T16:50:00-04)	metadata=5CEE0000 (ver=92, txPower=-18)	encryptedMeta=81B41EB5
+    Sighting records:
+      RPI=EC7A1B7A4EC3DF16446A8A4B7453A6C0	encryptedMetadata=5CF831DF
+        2020-09-03T16:29:44-04 (2s) rssi=[-90, -89, -89, -89, -91, -91]
+        2020-09-03T16:34:29-04 (2s) rssi=[-89, -88, -89, -89, -89, -91, -88]
+      RPI=86EE58367032117F0CAD8FE8089B5DDD	encryptedMetadata=7C89E8D1
+        2020-09-03T16:39:08-04 (3s) rssi=[-90, -90, -89, -88, -89, -88, -88]

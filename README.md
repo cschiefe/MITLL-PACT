@@ -10,6 +10,9 @@ phone IDs). Format is CSV and text files.
 
 The system logs from the phones do not record ENS v2 data structures (both because we were using a v1 app and because the ENS service had not provided that level of logging in production). To compute ScanInstances and ExposureWindows, we ported the open source ENS internals code to run on a desktop, and fed in the beacons and timestamps from the phones' system logs. The ScanInstance and ExposureWindow data for each pair of phone exposures is formatted as CSV files under exposure_windows*/. Those CSVs have one row per ScanInstance; the data for the ExposureWindow is repeated in each row of its constituent ScanInstances.
 
+On 2020-12-15, Google released an update to the calibration values for Android. Our tests on 2020-12-22 and 2020-12-23 showed the new values in use on the phones.
+
+
 Test metadata / input to postprocessing step:
 ----------------------------------------------
 
