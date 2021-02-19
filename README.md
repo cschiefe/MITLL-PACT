@@ -13,21 +13,21 @@ The system logs from the phones do not record ENS v2 data structures (both becau
 
 Test metadata / input to postprocessing step:
 
-1. MITLL_ASDF_TestSummary.csv
+  1. MITLL_ASDF_TestSummary.csv
     a. Timestamps for begin/end of test, and clock offsets
     b. Phone hardware IDs
     c. Physical configuration (locations, distances, orientations)
     d. Expect detection (just a boolean indicator of whether phones were < 6' apart for >= 15 min)
 
-2. MITLL_ASDF_TestSummary_Combo.csv -- same format as 1., but with time-consecutive fixed-distance tests "rolled up" into longer exposures at varying distances, either greater or less than 6 feet.
+  2. MITLL_ASDF_TestSummary_Combo.csv -- same format as 1., but with time-consecutive fixed-distance tests "rolled up" into longer exposures at varying distances, either greater or less than 6 feet.
 
-3. ENS "dumpsys" file
+  3. ENS "dumpsys" file
     a. Service-level configuration at runtime
     b. History of Temporary Exposure Keys used by ENS
     c. History of Bluetooth message contents sent by ENS
     d. History of Bluetooth message contents received by ENS
 
-4. ENS Service log file from bugreport
+  4. ENS Service log file from bugreport
     a. Timestamps and contents of Bluetooth message contents received by ENS
     b. Timestamps and contents of ENS data structures, e.g. ScanInstance, ExposureWindow
 
